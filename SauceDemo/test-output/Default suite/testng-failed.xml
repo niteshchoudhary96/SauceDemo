@@ -3,13 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Page.Checkout_information_page">
+      <class name="Page.BacktoLogin">
         <methods>
           <include name="information"/>
+          <include name="Checkprice"/>
+          <include name="CheckoutItemList"/>
+          <include name="Confirmtext"/>
+          <include name="GotoLoginScreen"/>
           <include name="ReadData"/>
           <include name="OpenBrowser"/>
         </methods>
-      </class> <!-- Page.Checkout_information_page -->
+      </class> <!-- Page.BacktoLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -45,7 +45,7 @@ CONTINUE_BUTTON = //input[@id="continue"]
                            #CHECKOUT_OVERVIEW
                            
 ALL_ITEMS_PRICE = //div[@class="inventory_item_price"]                          
-TOTAL_PRICE = //div[normalize-space()='Item total: $45.98'] 
+TOTAL_PRICE_without_tax = //div[normalize-space()='Item total: $45.98'] 
 TOTAL_TAX = //div[normalize-space()='Tax: $3.68']
 TOTAL_PRICE = //div[normalize-space()='Total: $49.66'] 
 FINISH_BUTTON = //button[@id="finish"]                           

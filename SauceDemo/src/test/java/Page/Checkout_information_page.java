@@ -3,7 +3,7 @@ package Page;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class Checkout_information_page extends Checkout_Overview {
+public class Checkout_information_page extends Shopping_Cart_page {
 
 	@Test(priority = 4)
 	public void information() {

@@ -26,9 +26,12 @@ public class Browser extends File_Reader {
 	//@AfterTest
 	public void CloseBrowser() {
 		
+		String Title = driver.getTitle();
+		System.out.println("page title :"+Title);
+		if(Title.contains("Swag Labs")) {
 		driver.quit();
 		
-		
+		}
 	}
 
 }
