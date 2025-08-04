@@ -1,0 +1,16 @@
+#Website_url's  
+
+URL = https://www.saucedemo.com/
+
+
+#login page details
+
+USER_NAME = standard_user
+USER_PASSWORD = secret_sauce
+
+
+
+
+First_Name = John
+Last_Name = Doe
+Zip = 12345

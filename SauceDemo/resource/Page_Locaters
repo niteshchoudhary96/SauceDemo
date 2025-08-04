@@ -1,0 +1,56 @@
+                               #Login Page
+NAME_FIELD = //input[@id="user-name" and @name="user-name"]
+PASSWORD_FIELD = //input[@id="password" and @name="password"]                                                          
+LOGIN_BUTTON =  //input[@id="login-button" and @name="login-button"]                             
+                               
+                               
+                               #LOGIN_USER_NAMES
+USER_NAME_LIST =  //div[@id="login_credentials" and @class="login_credentials"]
+
+
+
+                              #MAIN_PAGE
+
+Iteam_list = //div[@class="inventory_list"]/div
+BACKPACK =  //div[contains(text(),'Sauce Labs Backpack')]
+ADD_TO_CART_BACKPCK = //button[@name="add-to-cart-sauce-labs-backpack" and contains(text(),'Add to cart')]
+REMOVE_TO_CART_BACKPACK = //button[@name="remove-sauce-labs-backpack"and contains(text(),'Remove')]	
+
+T_SHIRT = //div[contains(text(),'Sauce Labs Bolt T-Shirt')]
+ADD_TO_CART_T_SHIRT = //button[@name="add-to-cart-sauce-labs-bolt-t-shirt"and contains(text(),'Add to cart')]
+REMOVE_TO_CART_TSHIRT = //button[@name="remove-sauce-labs-bolt-t-shirt"and contains(text(),'Remove')]                             
+
+HAMBURGER_BUTTON = //button[@type="button" and contains(text(),'Open Menu')]
+LOGOUT_BUTTON = //a[@id="logout_sidebar_link" and contains(text(),'Logout')]
+
+
+
+                                #CART_PAGE
+GOTO_CART = //a[@class="shopping_cart_link"]
+CHECK_ADDED_ITEMS = //div[@class="cart_item"]
+CHECKOUT_BUTTON = //button[@id="checkout" and @name="checkout"]
+
+
+
+                              #Checkout: Your Information
+                              
+FIRST_NAME = //input[@placeholder="First Name"]
+LAST_NAME = //input[@placeholder="Last Name"]
+ZIP_CODE //input[@placeholder="Zip/Postal Code"] 
+CONTINUE_BUTTON = //input[@id="continue"]
+
+
+
+
+                           #CHECKOUT_OVERVIEW
+                           
+ALL_ITEMS_PRICE = //div[@class="inventory_item_price"]                          
+TOTAL_PRICE = //div[normalize-space()='Item total: $45.98'] 
+TOTAL_TAX = //div[normalize-space()='Tax: $3.68']
+TOTAL_PRICE = //div[normalize-space()='Total: $49.66'] 
+FINISH_BUTTON = //button[@id="finish"]                           
+
+
+                              #VERIFY THE TAG & CHECKOUT COMPLETE
+TAG_TEXT = //h2[contains(text(),'Thank you for your order!')]
+BACK_TO_HOME = //BUTTON[contains(text(),'Back Home')]
